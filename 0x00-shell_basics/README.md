@@ -16,3 +16,4 @@
 100-lets_move: Moves all files beginning with an upper case to the directory /tmp/u
 101-clean_emacs: Deletes all files in the current working directory that end with ~
 102-tree: Creates directories welcome,welcome/to and welcome/to/school in the current directory
+103-commas: List all files and directories of the current directory separated by commas
