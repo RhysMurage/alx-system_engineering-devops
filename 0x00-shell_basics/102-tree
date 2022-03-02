@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -mavp
+mkdir welcome/to/school
