@@ -1,2 +1,1 @@
-This is a collection of executable scripts each 2 lines long containing shell commands
-Permissions
+0-iam_betty: Switch the current user to betty
