@@ -1,2 +1,2 @@
 #!/bin/bash
-chown -R julien:vincent *
+chown -R julien:vincent /*
