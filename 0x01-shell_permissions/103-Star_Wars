@@ -1,0 +1,3 @@
+#!/bin/bash
+telnet towel.blinkenlights.nl
+103-Star_Wars: Plays Star Wars IV episode in the terminal
