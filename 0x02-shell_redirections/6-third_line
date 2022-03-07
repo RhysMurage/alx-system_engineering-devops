@@ -1,0 +1,2 @@
+#!/bin/bash
+cat iaca | awk 'NR==3'
