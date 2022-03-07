@@ -13,3 +13,4 @@
 12-newest_files: Displays the 10 newest files in the current directory
 13-unique: Prints only words that appear once
 14-findthatword: Displays lines that have the pattern 'root'
+15-countthatword: Displays the number of lines that contain the pattern 'bin'
