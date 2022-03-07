@@ -19,4 +19,5 @@
 18-letteronly: Displays all lines of the file /etc/ssh/sshd_config starting with a letter, including capita
 19-AZ: Replace all characters A and c from input to Z and e respectively
 20-hiago: Removes all letters c and C from input
-21-reverse: Reverses the input
+21-reverse: Reverses the inpu
+22-users_and_homes: Displays all users and thier home directories, sorted by users
