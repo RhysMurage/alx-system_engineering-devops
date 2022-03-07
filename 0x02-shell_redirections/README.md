@@ -14,3 +14,4 @@
 13-unique: Prints only words that appear once
 14-findthatword: Displays lines that have the pattern 'root'
 15-countthatword: Displays the number of lines that contain the pattern 'bin'
+16-whatsnext: Displays the lines containing the pattern 'root' and 3 lines after them'
