@@ -14,3 +14,4 @@
 13-print_float: prints a number with two decimal places, followed by a new line.
 100-decimal_to_hexadecimal: converts a number from base 10 to base 16.
 101-rot13:  encodes and decodes text using the rot13 encryption assuming ASCII.
+103-water_and_stir: adds the two numbers stored in the environment variables WATER and STIR and prints the result.
