@@ -4,7 +4,7 @@
 var="Best School"
 n=0
 
-while [ $n -le 10 ]
+while [ $n -lt 10 ]
 do
 	echo "$var"
 	n=$((n+1))
