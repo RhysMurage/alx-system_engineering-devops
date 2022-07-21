@@ -2,10 +2,9 @@
 # This script is displaying "Best School" 10 times
 
 var="Best School"
-n=0
+n=10
 
-while [ $n -le 10 ]
+for ((i=0; i<n; i++))
 do
 	echo "$var"
-	n=$((n+1))
 done
