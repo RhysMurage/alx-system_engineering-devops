@@ -8,6 +8,6 @@ var2="I am invincible!!!"
 while [ $i -eq 1 ]
 do
 	echo "$var"
-	trap "$var2" SIGTERM
+	trap "echo '$var2'" SIGTERM
 	sleep 2
 done
