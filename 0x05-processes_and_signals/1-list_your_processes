@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
 # Displays its own PID
-
-ps axo stat,euid,ruid,tty,tpgid,sess,pgrp,ppid,pid,pcpu,comm
+ps faux
