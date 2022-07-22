@@ -9,5 +9,5 @@ while [ $i -eq 1 ]
 do
 	echo "$var"
 	sleep 2
-	trap "echo '$var2'" SIGTERM
+	trap 'echo "$var2"' SIGTERM
 done
