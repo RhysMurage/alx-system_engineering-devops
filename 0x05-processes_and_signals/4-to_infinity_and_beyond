@@ -7,5 +7,5 @@ var="To infinity and beyond"
 while [ $i -eq 1 ]
 do
 	echo "$var"
+	sleep 2
 done
-sleep 2
