@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Displays its own PID
 
-ps -aux
+ps axo stat,euid,ruid,tty,tpgid,sess,pgrp,ppid,pid,pcpu,comm
