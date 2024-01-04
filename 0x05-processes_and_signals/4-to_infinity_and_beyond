@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Display "To infinity and beyond" indefinitely
+# bash sleeps for 2 seconds after each loop
+
+i=1
+var="To infinity and beyond"
+while [ $i -eq 1 ]
+do
+	echo "$var"
+	sleep 2
+done

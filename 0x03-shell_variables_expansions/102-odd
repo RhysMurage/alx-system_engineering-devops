@@ -1,0 +1,2 @@
+#!/bin/bash
+pase -d "," - - | cut -d "," 
