@@ -1,7 +1,7 @@
+"""Fetches the TODO list for a given employee ID and displays the progress."""
+
 import requests
 import sys
-
-"""Fetches the TODO list for a given employee ID and displays the progress."""
 
 
 if __name__ == "__main__":
