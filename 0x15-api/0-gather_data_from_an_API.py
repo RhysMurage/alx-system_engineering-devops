@@ -7,9 +7,13 @@ import sys
 
 if __name__ == "__main__":
     userId = sys.argv[1]
-    user = requests.get('https://jsonplaceholder.typicode.com/users/{}/todos'.format(userId))
-    todos = requests.get('https://jsonplaceholder.typicode.com/todos').json()
-    userResponse = requests.get('https://jsonplaceholder.typicode.com/users/{}'.format(userId))
+    user = requests.get('https://jsonplaceholder.typicode.com/users/{}/todos'
+                        .format(userId))  # to long
+    todos = requests.get(
+        'https://jsonplaceholder.typicode.com/todos').json()
+    userResponse = requests.get(
+        # to long
+        'https://jsonplaceholder.typicode.com/users/{}'.format(userId))
 
     completedTasks = 0
     totalTasks = 0
@@ -22,6 +26,7 @@ if __name__ == "__main__":
 
     employeeName = userResponse.json()['name']
 
-    print(f"Employee {employeeName} is done with tasks ({completedTasks}/{totalTasks}):")
+    print("Employee {} is done with tasks ({}/{}):"
+          .format(employeeName, completedTasks, totalTasks))
     print('\n'.join(["\t " + task.get('title') for task in todos
           if task.get('userId') == int(userId) and task.get('completed')]))
