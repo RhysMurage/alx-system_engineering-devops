@@ -8,12 +8,12 @@ import sys
 if __name__ == "__main__":
     userId = sys.argv[1]
     user = requests.get('https://jsonplaceholder.typicode.com/users/{}/todos'
-                        .format(userId))  # to long
+                        .format(userId))
     todos = requests.get(
         'https://jsonplaceholder.typicode.com/todos').json()
     userResponse = requests.get(
-        # to long
         'https://jsonplaceholder.typicode.com/users/{}'.format(userId))
+    employeeName = userResponse.json().get('name')
 
     completedTasks = 0
     totalTasks = 0
@@ -24,7 +24,6 @@ if __name__ == "__main__":
             if task.get('completed'):
                 completedTasks += 1
 
-    employeeName = userResponse.json()['name']
 
     print("Employee {} is done with tasks ({}/{}):"
           .format(employeeName, completedTasks, totalTasks))
